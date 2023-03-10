@@ -49,11 +49,11 @@ class FicheFraisController extends Controller
             }
             elseif ($statut == 'RB')
             {
-                $statutFicheFrais = 'Remboursée';
+                $statutFicheFrais = 'Validée';
             }
             elseif ($statut == 'VA')
             {
-                $statutFicheFrais = 'Validée';
+                $statutFicheFrais = 'remboursée';
             }
             
             foreach ($lesFraisHorsForfait as $unFraisHorsForfait): 
